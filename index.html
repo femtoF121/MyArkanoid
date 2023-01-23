@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Arkanoid</title>
+</head>
+<body onload="onLoad()">
+    <header>
+        <div class="life-container"></div>
+        <div class="score-container">
+            <p>Score: </p>
+            <p>12345</p>
+        </div>
+    </header>
+    <main>
+        <div class="ball"></div>
+        <div class="tiles-field"></div>
+        <div class="vaus-field">
+            <div class="vaus"></div>
+        </div>
+    </main>
+    <div class="game-over">
+        <h1>GAME OVER</h1>
+        <h3>Your score: 12345</h3>
+        <div class="game-over-buttons">
+            <button onclick="playAgain()">Play again</button>
+            <button onclick="exit()">Exit</button>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
